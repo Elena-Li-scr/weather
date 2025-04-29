@@ -10,7 +10,7 @@ const debounce = (fn, debounceTime) => {
 };
 
 async function getWeather(city) {
-  const apiKey = "d93b3aa9641ac6b9c0f3fc4649687524";
+  const apiKey = "";
   const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
   try {
